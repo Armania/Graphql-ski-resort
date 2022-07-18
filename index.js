@@ -63,5 +63,5 @@ const server = new ApolloServer({
 
 server
 	.listen()
-	.then( ({url}) => console.log(`Server running at ${url}`)
+	.then( ({url}) => console.log(`Apollo Server running at ${url}`)
 );
